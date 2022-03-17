@@ -34,7 +34,7 @@ function TodoList() {
           <button onClick={addTodo}>Add</button>
         </div>
       </div>
-      <TodoTable todos={todos} />
+      <TodoTable todos={todos} deleteTodo={deleteTodo} />
     </div>
   );
 };
